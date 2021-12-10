@@ -8,7 +8,7 @@
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon server/server.js",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon server/server.js",
     "seeder": "node server/utils/seeder.js",
-    "heroku:postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix client && npm run build --prefix client"
   },
   "author": "Raghav Nayak",
   "license": "ISC",
