@@ -1,0 +1,22 @@
+.choose {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.choose2 {
+  display: flex;
+  padding: 2rem;
+}
+
+.choose2 #city {
+  box-shadow: 0 15px 10px -6px darkgray;
+  padding: 0.5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border: 2px solid darkgoldenrod;
+}

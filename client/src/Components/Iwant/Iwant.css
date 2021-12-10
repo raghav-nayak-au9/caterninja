@@ -1,0 +1,40 @@
+.form-iwant {
+  height: fit-content;
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+#ocn {
+  border: 3px solid #f6f3f39c;
+  color: black;
+  padding: 7px 0;
+  /* margin-right: 25px; */
+  border-radius: 10px;
+  width: 125px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 5px 0 0;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 7px 6px -6px #777;
+}
+
+#ocn:hover {
+  background-color: #ffe600;
+  border: none;
+}
+
+#want {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+#want span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

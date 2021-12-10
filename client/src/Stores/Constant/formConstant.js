@@ -1,0 +1,3 @@
+export const FORM2STATUS = "FORM2STATUS";
+export const FORM3STATUS = "FORM3STATUS";
+export const FORM4STATUS = "FORM4STATUS";

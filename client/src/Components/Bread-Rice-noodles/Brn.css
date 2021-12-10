@@ -1,0 +1,44 @@
+.form-brn {
+  height: fit-content;
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* .brn {
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
+
+.inner-brn {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.inner1 .select-brn {
+  width: 70%;
+  height: 2.5rem;
+  border-radius: 5px;
+}
+
+.inner1 .quantity {
+  width: 10%;
+  height: 2.5rem;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+::placeholder {
+  text-align: center;
+}

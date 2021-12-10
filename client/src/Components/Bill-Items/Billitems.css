@@ -1,0 +1,150 @@
+.form-bill {
+  height: fit-content;
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  /* border: 2px solid #ccc; */
+}
+
+.bill-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.bill-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bill-body .bill-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.bill-1 .crs {
+  width: 40%;
+}
+
+.bill-1 .price {
+  width: 10%;
+}
+
+.bill-body .bill-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.bill-2 .crs {
+  width: 40%;
+}
+
+.bill-2 .price {
+  width: 10%;
+}
+
+.bill-body .bill-3 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.bill-3 .crs {
+  width: 40%;
+}
+
+.bill-3 .price {
+  width: 10%;
+}
+
+.bill-body .bill-4 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.bill-4 .crs {
+  width: 40%;
+}
+
+.bill-4 .price {
+  width: 10%;
+}
+
+.subtotal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtotal .subtotal-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.subtotal .subtotal-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.subtotal-1 .crs {
+  width: 40%;
+}
+
+.subtotal-1 .price {
+  width: 10%;
+}
+
+.subtotal-2 .crs {
+  width: 40%;
+}
+
+.subtotal-2 .price {
+  width: 10%;
+}
+
+.grandtotal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grandtotal .grandtotal-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.grandtotal-1 .crs {
+  width: 40%;
+}
+
+.grandtotal-1 .price {
+  width: 10%;
+}

@@ -1,0 +1,42 @@
+.form-customer-details {
+  height: fit-content;
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-customer-details .cust-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.form-customer-details .cust-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.nn {
+  width: 25%;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 3.1px;
+  border-color: black;
+  font-size: 14px;
+}
+
+.btn-price {
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* outline: none;
+  border: none; */
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px rgb(165, 159, 159);
+}

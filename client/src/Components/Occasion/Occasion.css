@@ -1,0 +1,36 @@
+.form-occasion {
+  height: fit-content;
+  width: 100%;
+  /* border: 2px solid black; */
+  margin-top: 4rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#ocnc {
+  border: 3px solid #f6f3f39c;
+  padding: 20px 10px;
+  color: black;
+  font-size: 14px;
+  /* margin-right: 25px; */
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 40px 0 0;
+  box-shadow: 0 7px 6px -6px #777;
+  height: 100px;
+  overflow: hidden;
+}
+#ocnc:hover {
+  background-color: yellow;
+  border: none;
+  padding: 20px 13px;
+}
+
+#onno {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

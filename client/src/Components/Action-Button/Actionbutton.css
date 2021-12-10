@@ -1,0 +1,31 @@
+.action-div {
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-left: 15rem;
+}
+
+.action-div .bn {
+  height: 3.5rem;
+  width: 25%;
+  padding: 0.5rem;
+  background-color: rgb(37 211 102);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  float: unset;
+  margin-right: 1rem;
+}
+
+.action-div .wbtn {
+  height: 3.5rem;
+  width: 45%;
+  background-color: rgb(37 211 102);
+  opacity: 0.6;
+  font-size: 18px;
+  border-radius: 10px;
+  color: black;
+  padding: 0.5rem;
+}

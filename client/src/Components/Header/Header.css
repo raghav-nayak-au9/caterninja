@@ -1,0 +1,33 @@
+#web-h5 {
+  font-size: 30px;
+}
+
+.fa,
+.fas {
+  font-size: 24px;
+  color: darkred;
+  padding: 0 10px;
+}
+
+.outer-container-header {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-top: 2rem;
+}
+
+.inner-container-header {
+  text-align: center;
+}
+
+.inner-container-header #h6h6 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#h6h6 span {
+  display: inline-block;
+}

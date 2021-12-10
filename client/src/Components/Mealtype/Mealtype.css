@@ -1,0 +1,38 @@
+.form-meal {
+  height: fit-content;
+  width: 30%;
+  /* border: 2px solid black; */
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#ocn {
+  border: 3px solid #f6f3f39c;
+  color: black;
+  padding: 7px 0;
+  /* margin-right: 25px; */
+  border-radius: 10px;
+  width: 125px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 5px 0 0;
+  -webkit-box-shadow: 0 10px 10px -6px #777;
+  -moz-box-shadow: 0 10px 10px -6px #777;
+  box-shadow: 0 10px 10px -6px #777;
+}
+
+#ocn:hover {
+  background-color: #ffe600;
+  border: none;
+}
+
+#pref {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
